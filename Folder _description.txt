@@ -1,7 +1,0 @@
-This folder was used for processing the zooplankton information from the 1972-2019PumpMatrix.xlsx file downloaded from the california dept of wildlife ftp server (link included in readme)
-
-The `Station Lookup` tab was used to pull lat/lon values and plot them on a map along with USGS station locations.
-
-The locations that were of interest were saved as `station_lookup_trimmed.csv`. This file contatins the `StationNZ` codes for the relevant locations, the names and lat/lon values.
-
-After that the zooplankton samples from the `Pump CPUE Matrix` sheet with the appropriate dates, locations and zooplankton groups were from the original excel file and saved as zoo_df.xlsx (to preserve datetime values).
