@@ -1,4 +1,7 @@
 *.xls
 *.xlsx
 *.csv
+.ipynb_checkpoints
 .DS_Store
+visualizations/.DS_Store
+tsv_clean_csv.ipynb
