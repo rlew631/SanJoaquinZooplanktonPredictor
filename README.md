@@ -1,21 +1,14 @@
-# San Joaquin Marine_life_predictor
-Predicts the presence of aquatic micro-organisms in the San Joaquin Delta based on water quality measurements
-
+# San Joaquin Marine Micro-Organism Predictor
+Predicts the presence of aquatic micro-organisms in the San Joaquin Delta based on water quality measurements from USGS
 
 ## Project History/Workflow:
 
 - Find USGS stations in the San Joaquin Delta region using the lat/lon bounding box feature on their site.
-
 - Download the [`1972-2019PumpMatrix.xlsx` data from the California Dept of Fish and Wildlife](ftp://ftp.wildlife.ca.gov/IEP_Zooplankton/)
-
 - Find the USGS stations with data including and prior to 2019.
-
 - Scrape the data using `scrape_then_merge.py`
-
 - Map USGS stations and pump stations using `visualizations/Plotly_map.ipynb`
-
 - Match the pump stations to the USGS stations based on proximity and the distance up/downstream. Matchings can be found in `usgs_to_zooplankton_site` sheet in `usgs_locations_w_zoo_sites.xls`
-
 - Take a _bell-curve_ weighted moving average of the USGS data using an 11 day period with `EDA.ipynb` and `gauss.py`.
 
 ## File Directory
