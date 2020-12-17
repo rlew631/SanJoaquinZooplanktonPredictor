@@ -1,9 +1,4 @@
-'''
-Just read the function doc
-'''
-
 import math
-
 
 def gauss_dist(length : int):
     '''
@@ -24,5 +19,5 @@ def gauss_dist(length : int):
         )
     initial_sum = sum(dist)
     dist = [entry/initial_sum for entry in dist]
-    #sum(dist) should be equal to one
+    # dist is normalized. AKA sum(dist) = 1.0
     return dist
