@@ -1,5 +1,5 @@
 # San Joaquin Marine Micro-Organism Predictor
-Predicts the presence of aquatic micro-organisms in the San Joaquin Delta based on water quality measurements from USGS
+The purpose of this project is to predict the presence of aquatic micro-organisms in the San Joaquin Delta based on water quality measurements from USGS. These organisms are a key food source for the endangered Delta Smelt which has experienced a rapid population decline in the last few years.
 
 ## Project History/Workflow:
 
