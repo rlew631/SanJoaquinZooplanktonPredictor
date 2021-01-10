@@ -1,8 +1,12 @@
+'''
+    Just contains the gaus_dist function for now, see that docstring for more info
+'''
 import math
 
 def gauss_dist(length : int):
     '''
-    Put in an integer and get out an array of that length.
+    Input: Length (Integer)
+    Output: An array of that length.
     The values in the array correspond to a gaussian distribution.
     The middle value of the list is the peak of the distribution.
     The values have been normalized so that the sum of the entries = 1.
@@ -21,3 +25,4 @@ def gauss_dist(length : int):
     dist = [entry/initial_sum for entry in dist]
     # dist is normalized. AKA sum(dist) = 1.0
     return dist
+
